@@ -1,0 +1,14 @@
+cd H:\ShoeStore; $projectPath = Get-Location; Write-Host "===== SHOE STORE ($projectPath) =====" -ForegroundColor Cyan; @'
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=Shoe.db;Version=3;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+'@ | Out-File -FilePath "$projectPath\ShoeStore.api\appsettings.json" -Encoding UTF8; Write-Host "✅ appsettings.json создан" -ForegroundColor Green; Write-Host "🚀 Запуск API..." -ForegroundColor Yellow; Start-Process powershell -ArgumentList "-NoExit", "-Command", "cd '$projectPath\ShoeStore.api'; dotnet run --urls='https://localhost:5001;http://localhost:5000'"; Write-Host "⏳ Ожидание API (5 сек)..." -ForegroundColor Yellow; Start-Sleep -Seconds 5; Write-Host "🖥️ Запуск UI..." -ForegroundColor Green; cd "$projectPath\ShoeStore"; dotnet run

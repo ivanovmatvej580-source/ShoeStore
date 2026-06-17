@@ -1,0 +1,75 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "Login": null,
+      "Password": "admin123",
+      "Role": "admin",
+      "FirstName": null,
+      "LastName": null,
+      "Phone": null,
+      "Email": null
+    },
+    {
+      "Id": 2,
+      "Login": null,
+      "Password": "user123",
+      "Role": "user",
+      "FirstName": null,
+      "LastName": null,
+      "Phone": null,
+      "Email": null
+    },
+    {
+      "Id": 3,
+      "Login": null,
+      "Password": "123",
+      "Role": "user",
+      "FirstName": null,
+      "LastName": null,
+      "Phone": null,
+      "Email": null
+    },
+    {
+      "Id": 4,
+      "Login": null,
+      "Password": "123",
+      "Role": "user",
+      "FirstName": null,
+      "LastName": null,
+      "Phone": null,
+      "Email": null
+    },
+    {
+      "Id": 5,
+      "Login": null,
+      "Password": "123",
+      "Role": "user",
+      "FirstName": null,
+      "LastName": null,
+      "Phone": null,
+      "Email": null
+    },
+    {
+      "Id": 6,
+      "Login": "ter",
+      "Password": "123",
+      "Role": "user",
+      "FirstName": null,
+      "LastName": null,
+      "Phone": null,
+      "Email": null
+    },
+    {
+      "Id": 7,
+      "Login": "lol",
+      "Password": "123",
+      "Role": "user",
+      "FirstName": "\u043C\u0430\u0442\u0432\u0435\u0439",
+      "LastName": "\u0438\u0432\u0430\u043D\u043E\u0432",
+      "Phone": "\u002B79811258930",
+      "Email": "ivanovmatvej580@gmail.com"
+    }
+  ],
+  "NextId": 8
+}
